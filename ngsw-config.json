@@ -23,5 +23,18 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "posts-images",
+      "urls": ["https://firebasestorage.googleapis.com/"],
+      "version": 0,
+      "cacheConfig": {
+        "maxSize": 40,
+        "maxAge": "3d12h",
+        "timeout": "5s30u",
+        "strategy": "performance"
+      }
+    }
   ]
 }
